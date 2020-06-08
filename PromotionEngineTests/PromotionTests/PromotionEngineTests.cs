@@ -21,7 +21,7 @@ namespace PromotionEngineTests.PromotionTests
 		}
 
 		[Fact]
-		public void PromotionEngine_NQuantitiesOfPromotionalItemsAreAdded_DiscountShouldBeApplied()
+		public void PromotionEngine_NQuantitiesOfPromotionItemsAreAdded_DiscountShouldBeApplied()
 		{
 			var cart = new Cart();
 			cart.AddItem("A", 50, 5);
@@ -34,7 +34,7 @@ namespace PromotionEngineTests.PromotionTests
 		}
 
 		[Fact]
-		public void PromotionEngine_CombinationPromotionalItemsAreAdded_DiscountShouldBeApplied()
+		public void PromotionEngine_CombinationPromotionItemsAreAdded_DiscountShouldBeApplied()
 		{
 			var cart = new Cart();
 			cart.AddItem("A", 50, 3);

@@ -7,7 +7,8 @@
 		public int Quantity { get; private set; }
 		public string Sku { get;  set; }
 		public decimal Price { get; private set; }
-		
+		public bool IsPromotionApplied { get; set; }
+
 		public CartItem(string sku, int quantity, decimal unitPrice)
 		{
 			Sku = sku;
